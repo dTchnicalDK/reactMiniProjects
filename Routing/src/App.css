@@ -1,0 +1,16 @@
+* {
+  /* background-color: #3a3939; */
+  /* color: rgb(8, 6, 3); */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.courses-heading {
+  text-align: center;
+  background-image: linear-gradient(to bottom, darkgrey, grey);
+  color: white;
+}
+.courses {
+  display: flex;
+  justify-content: space-between;
+}

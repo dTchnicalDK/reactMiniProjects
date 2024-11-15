@@ -1,0 +1,29 @@
+.regDiv {
+  text-align: center;
+  border: 1px solid lightslategray;
+  border-radius: 15px;
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 50px;
+  box-shadow: 3px 3px 3px;
+}
+.regDiv input {
+  font-size: 1.3rem;
+  margin: 5px;
+  text-align: center;
+}
+.regDiv input[type="submit"],
+button {
+  background-color: rgb(4, 176, 245);
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}

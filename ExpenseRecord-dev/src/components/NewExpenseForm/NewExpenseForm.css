@@ -1,0 +1,27 @@
+.inputTitle {
+  color: rgb(255, 255, 255);
+}
+.formDiv {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+div input {
+  font-size: 1rem;
+  border-radius: 3px;
+  margin: 0px 45px;
+  background-color: rgb(175, 189, 189);
+}
+input[type="submit"] {
+  background-image: linear-gradient(yellow, orangered);
+  color: greenyellow;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+input[type="submit"]:hover {
+  background-image: linear-gradient(orangered, orange);
+}

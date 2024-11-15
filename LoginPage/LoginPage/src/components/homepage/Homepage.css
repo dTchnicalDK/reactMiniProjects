@@ -1,0 +1,11 @@
+.main {
+  width: 60vw;
+  height: 40vh;
+  border: 2px solid rgb(133, 138, 133);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 5px 5px black;
+  background-color: aquamarine;
+}

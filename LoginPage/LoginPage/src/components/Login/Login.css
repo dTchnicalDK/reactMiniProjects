@@ -1,0 +1,29 @@
+.logDiv {
+  border: 1px solid lightslategray;
+  border-radius: 15px;
+  width: 50vw;
+  height: 45vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10% 20%;
+  box-shadow: 3px 3px 3px;
+  text-align: center;
+}
+.logDiv input {
+  font-size: 1.3rem;
+  margin: 5px;
+  text-align: center;
+}
+.logDiv input[type="submit"] {
+  background-color: rgb(4, 176, 245);
+  border-radius: 5px;
+  color: white;
+}
+.btn {
+  background-color: rgb(4, 176, 245);
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3rem;
+}
