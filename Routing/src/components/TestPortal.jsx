@@ -152,7 +152,7 @@ function TestPortal({ Questions }) {
         </div>
         <div className="sidebar">
           <UserDetails />
-          <Numbers totalQuestins={totalMarks} />
+          <Numbers totalQuestions={totalMarks} />
         </div>
       </div>
     </>

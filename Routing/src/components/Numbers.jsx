@@ -1,5 +1,5 @@
 import Questions from "../assets/QuestionsDbs/DbQuestions";
-function Numbers() {
+function Numbers({totalQuestions}) {
   const boxStyle = {
     backgroundColor: "#606a74",
     height: "100%",
@@ -15,6 +15,7 @@ function Numbers() {
 
   return (
     <div style={boxStyle}>
+      console.log();
       <h3>Question Numbers are as follows:--</h3>
       <button style={buttonStyle}>Q.No.-1</button>
       <button style={buttonStyle}>Q.No.-2</button>
